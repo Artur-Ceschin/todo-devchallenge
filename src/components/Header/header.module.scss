@@ -1,0 +1,43 @@
+.headerContainer {
+  margin-top: 2rem;
+  h1 {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+}
+
+.headerLinks {
+  border-bottom: 1px solid #bdbdbd;
+
+  nav {
+    font-weight: normal;
+    margin: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    a {
+      display: inline-block;
+      position: relative;
+      padding: 0 1.2rem;
+      height: 2rem;
+      line-height: 2rem;
+
+      transition: color 0.4s;
+
+      &:hover {
+        color: gray;
+      }
+
+      &.active::after {
+        content: '';
+        height: 3px;
+        border-radius: 3px 3px 0 0;
+        width: 100%;
+        position: absolute;
+        bottom: 0px;
+        left: 0;
+        background: var(--blue);
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+.todoItems {
+  margin-top: 2.5rem;
+  ul {
+    li {
+      display: flex;
+      align-items: center;
+      display: relative;
+      position: relative;
+      input {
+        width: 20px;
+        height: 20px;
+        margin-right: 1rem;
+      }
+      p {
+        font-size: 1.2rem;
+
+        &.checked {
+          text-decoration: line-through;
+          opacity: 0.6;
+        }
+      }
+
+      svg {
+        position: absolute;
+        right: 0;
+        width: 30px;
+        height: 20px;
+        opacity: 0.5;
+
+        &:hover {
+          color: var(--red);
+          cursor: pointer;
+          opacity: 1;
+        }
+      }
+      & + li {
+        margin-top: 0.5rem;
+      }
+    }
+  }
+  .deleteButton {
+    display: block;
+    margin-top: 3rem;
+    margin-left: auto;
+    padding: 10px 30px;
+    background-color: var(--red);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    svg {
+      margin-right: 1rem;
+    }
+  }
+}
