@@ -7,9 +7,9 @@
 <h1 align="center">
     #todo
 </h1>
-<p align="center">Project create through the [devchallenge.io](https://devchallenges.io/challenges/hH6PbOHBdPm6otzw2De5) Challenges 🚀</p>
+<p align="center">Project create through the <a href="https://devchallenges.io/challenges/hH6PbOHBdPm6otzw2De5">devchallenge.io</a> Challenges 🚀</p>
 
-## About this project
+## About this project 🚀
 
 This project is a simple todo list tasks, made with Next and Typescript
 
