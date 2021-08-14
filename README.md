@@ -2,16 +2,20 @@
   <img alt="Logo" src="./public/devchallenges.png" alt="ig.News">
 </h1>
 
-![gif project](./public/tasks-devchallenge.gif)
+![](./public/tasks-devchallenge.gif)
 
 <h1 align="center">
-    ig.news - Next.js
+    #todo
 </h1>
-<p align="center">Project create through the devchallenge.io [devchallenge.io](https://devchallenges.io/challenges/hH6PbOHBdPm6otzw2De5) Challenges 🚀</p>
+<p align="center">Project create through the [devchallenge.io](https://devchallenges.io/challenges/hH6PbOHBdPm6otzw2De5) Challenges 🚀</p>
 
 ## About this project
 
-## This project is a simple todo list tasks, made with Next and Typescript
+This project is a simple todo list tasks, made with Next and Typescript
+
+### Check this projetct online
+
+- [todo-devchallenge](https://artur-todo-devchallenge-d658lrwvx-devchallenge-todo-tasks.vercel.app/)
 
 ## Technologies 👩‍💻
 
@@ -35,10 +39,10 @@ It is necessary to have installed on your machine
 
 ```bash
 # Clone this project
-$ git clone https://github.com/Artur-Ceschin/ignews.git
+$ git clone https://github.com/Artur-Ceschin/todo-devchallenge.git
 
 # Access
-$ cd ignews
+$ cd todo-devchallenge
 
 # Install dependencies
 $ yarn
@@ -53,7 +57,7 @@ $ yarn dev
 
 ## License📃
 
-This project is under license from MIT. For more details, see the [LICENSE](./LICENSE.md) file.
+This project is under license from MIT. For more details, see the [LICENSE](./LICENSE) file.
 
 ### Author
 

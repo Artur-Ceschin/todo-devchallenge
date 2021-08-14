@@ -15,7 +15,7 @@ export default class MyDocument extends Document {
             href="/devchallenges.png"
             type="image/png"
           />
-          <title>#TODO</title>
+          <Head>#TODO</Head>
         </Head>
         <body>
           <Main />
